@@ -12,7 +12,7 @@ This script creates an animated GIF from a set of images using the `imageio.v3` 
 Make sure you have `imageio` installed. If you don’t have it yet, install it with:
 
 ```bash
-pip install imageio[ffmpeg]
+pip3 install imageio
 ```
 
 ### Running the Script
@@ -20,7 +20,7 @@ pip install imageio[ffmpeg]
 2. Run the script with:
 
 ```bash
-python script.py
+python create_gif.py
 ```
 
 3. The script will generate `kiryu.gif` in the same directory.
